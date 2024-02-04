@@ -1,4 +1,7 @@
-public class SingleLinkedIntList {
+public class SingleLinkedList {
+    public SingleLinkedList(){
+        this.head = null;
+    }
 
     public class Node {
 
@@ -8,14 +11,11 @@ public class SingleLinkedIntList {
 
         public Node(int data){
             this.data = data;
-            this.next = null;
         }
     }
     Node head;
 
-    public SingleLinkedIntList(){
-        this.head = null;
-    }
+
 
 
     public void addFirst(int value){
